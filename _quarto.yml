@@ -10,7 +10,7 @@ website:
       - text: "HR Management"
         href: HR-Management.qmd
       - text: "Strategic Management"
-        href: Strategic-Management.html
+        href: Strategic-Management.qmd
       - text: "Resume"
         href: resume.qmd
 
