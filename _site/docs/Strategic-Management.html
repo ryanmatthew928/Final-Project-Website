@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Resume – Ryan Hernandez</title>
+<title>Strategic Management – Ryan Hernandez</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +23,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -66,7 +68,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -77,7 +137,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Ryan Hernandez</span>
     </a>
   </div>
@@ -88,19 +148,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./HR-Management.html"> 
+    <a class="nav-link" href="../HR-Management.html"> 
 <span class="menu-text">HR Management</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Strategic-Management.qmd"> 
+    <a class="nav-link" href="../Strategic-Management.html"> 
 <span class="menu-text">Strategic Management</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Resume.qmd"> 
+    <a class="nav-link" href="../Resume.html"> 
 <span class="menu-text">Resume</span></a>
   </li>  
 </ul>
@@ -119,22 +179,27 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#professional-summary" id="toc-professional-summary" class="nav-link active" data-scroll-target="#professional-summary">Professional Summary</a></li>
-  <li><a href="#technical-skills" id="toc-technical-skills" class="nav-link" data-scroll-target="#technical-skills">Technical Skills</a></li>
-  <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">Education</a></li>
-  <li><a href="#work-experience" id="toc-work-experience" class="nav-link" data-scroll-target="#work-experience">Work Experience</a>
+  <li><a href="#talent-acquisition-employer-branding-strategy" id="toc-talent-acquisition-employer-branding-strategy" class="nav-link active" data-scroll-target="#talent-acquisition-employer-branding-strategy">[Talent Acquisition &amp; Employer Branding Strategy]</a>
   <ul class="collapse">
-  <li><a href="#hr-business-partner-amazon" id="toc-hr-business-partner-amazon" class="nav-link" data-scroll-target="#hr-business-partner-amazon">[HR Business Partner], [Amazon]</a></li>
+  <li><a href="#skills-demonstrated" id="toc-skills-demonstrated" class="nav-link" data-scroll-target="#skills-demonstrated">Skills Demonstrated:</a></li>
+  </ul></li>
+  <li><a href="#leadership-development-program" id="toc-leadership-development-program" class="nav-link" data-scroll-target="#leadership-development-program">[Leadership Development Program]</a>
+  <ul class="collapse">
+  <li><a href="#skills-demonstrated-1" id="toc-skills-demonstrated-1" class="nav-link" data-scroll-target="#skills-demonstrated-1">Skills Demonstrated:</a></li>
+  </ul></li>
+  <li><a href="#organizational-restructuring-change-management" id="toc-organizational-restructuring-change-management" class="nav-link" data-scroll-target="#organizational-restructuring-change-management">[Organizational Restructuring &amp; Change Management]</a>
+  <ul class="collapse">
+  <li><a href="#skills-demonstrated-2" id="toc-skills-demonstrated-2" class="nav-link" data-scroll-target="#skills-demonstrated-2">Skills Demonstrated:</a></li>
   </ul></li>
   </ul>
 </nav>
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Resume</h1>
+<h1 class="title">Strategic Management</h1>
 </div>
 
 
@@ -151,60 +216,63 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="professional-summary" class="level1">
-<h1>Professional Summary</h1>
-<p>Results-oriented marketing and analytics professional with a strong foundation in data analysis, digital strategy, and performance reporting. Skilled in leveraging analytics tools and programming languages to uncover insights and support decision-making across cross-functional teams.</p>
-</section>
-<section id="technical-skills" class="level1">
-<h1>Technical Skills</h1>
+<p>Below are selected initiatives that showcase my experience in strategic human resources management, talent development, and organizational effectiveness. These examples highlight how I apply strategic thinking, data-informed decision-making, and creative direction to drive organizational success through effective people strategies.</p>
+<section id="talent-acquisition-employer-branding-strategy" class="level2">
+<h2 class="anchored" data-anchor-id="talent-acquisition-employer-branding-strategy">[Talent Acquisition &amp; Employer Branding Strategy]</h2>
+<p>In this initiative, I led the development of a comprehensive talent acquisition strategy and employer branding campaign for <strong>[Salaried HR Partners]</strong>. From analyzing market trends and competitor practices to defining our employee value proposition and optimizing recruitment channels, I managed the full lifecycle of attracting top talent, aligning it with organizational culture and long-term growth objectives.</p>
+<section id="skills-demonstrated" class="level3">
+<h3 class="anchored" data-anchor-id="skills-demonstrated">Skills Demonstrated:</h3>
 <ul>
-<li><strong>HRIS &amp; Analytics Platforms:</strong></li>
-<li><strong>Talent Management Systems:</strong></li>
-<li><strong>Communication &amp; Collaboration Tools:</strong></li>
-<li><strong>Employee Engagement &amp; Retention Strategies:</strong></li>
-<li><strong>Talent Development &amp; Training:</strong></li>
+<li><strong>Talent Strategy Development:</strong> Defined objectives and tactics for attracting and retaining high-potential employees.</li>
+<li><strong>Employer Branding:</strong> Oversaw the creation of consistent and compelling messaging across all candidate touchpoints.</li>
+<li><strong>Recruitment Marketing:</strong> Implemented innovative strategies to enhance candidate engagement and application rates.</li>
+<li><strong>Stakeholder Collaboration:</strong> Partnered with hiring managers and leadership to ensure alignment with business needs.</li>
 </ul>
 </section>
-<section id="education" class="level1">
-<h1>Education</h1>
-<table class="caption-top" style="width:100%;">
-<colgroup>
-<col style="width: 24%">
-<col style="width: 24%">
-<col style="width: 26%">
-<col style="width: 24%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Bachelor of Science in Business Administration</th>
-<th>2018</th>
-<th>Management and Human Resources</th>
-<th>California State Polytechnic University, Pomona</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
 </section>
-<section id="work-experience" class="level1">
-<h1>Work Experience</h1>
-<section id="hr-business-partner-amazon" class="level3">
-<h3 class="anchored" data-anchor-id="hr-business-partner-amazon">[HR Business Partner], [Amazon]</h3>
-<p><em>[2020 – Present]</em></p>
+<section id="leadership-development-program" class="level2">
+<h2 class="anchored" data-anchor-id="leadership-development-program">[Leadership Development Program]</h2>
+<p>This initiative involved designing and implementing a comprehensive leadership development program for <strong>[Entry Level and Senior Level Managers]</strong>. By evaluating current leadership competencies, identifying future needs, and leveraging best practices in adult learning, I synthesized insights into a refreshed curriculum and delivery model that fostered leadership growth and organizational effectiveness.</p>
+<section id="skills-demonstrated-1" class="level3">
+<h3 class="anchored" data-anchor-id="skills-demonstrated-1">Skills Demonstrated:</h3>
 <ul>
-<li>Partnered with business leaders to develop and implement HR strategies aligned with organizational goals, focusing on employee engagement and retention.</li>
-<li>Analyzed employee data to identify trends, provide insights, and recommend solutions to improve engagement and reduce turnover.</li>
-<li>Collaborated with management to support employee growth and development initiatives, including performance management and career pathing.</li>
-<li>Utilized HRIS systems to manage employee data, generate reports, and track key HR metrics.</li>
-<li>Facilitated communication and addressed employee relations issues to foster a positive and productive work environment.</li>
+<li><strong>Needs Assessment:</strong> Defined critical leadership competencies and development gaps.</li>
+<li><strong>Program Design &amp; Development:</strong> Created engaging and impactful learning modules and resources.</li>
+<li><strong>Strategic Communication:</strong> Developed clear and persuasive communication to engage participants and stakeholders.</li>
+<li><strong>Stakeholder Presentation:</strong> Delivered program proposals and progress updates to senior leadership.</li>
 </ul>
-<hr>
+</section>
+</section>
+<section id="organizational-restructuring-change-management" class="level2">
+<h2 class="anchored" data-anchor-id="organizational-restructuring-change-management">[Organizational Restructuring &amp; Change Management]</h2>
+<p>This initiative focused on strategically planning and executing an organizational restructuring to <strong>[improve efficiency, align with new strategy]</strong> at <strong>[Site Level]</strong>. By analyzing the existing structure, identifying areas for improvement, and developing a comprehensive change management plan, I guided the organization through a transition that minimized disruption and maximized employee buy-in.</p>
+<section id="skills-demonstrated-2" class="level3">
+<h3 class="anchored" data-anchor-id="skills-demonstrated-2">Skills Demonstrated:</h3>
+<ul>
+<li><strong>Organizational Design:</strong> Analyzed organizational structures and proposed more effective models.</li>
+<li><strong>Change Management:</strong> Developed and implemented strategies to facilitate smooth transitions and address employee concerns.</li>
+<li><strong>Communication Planning:</strong> Created and executed communication plans to keep employees informed and engaged.</li>
+<li><strong>Stakeholder Management:</strong> Collaborated with various departments and leaders to ensure alignment and support.</li>
+</ul>
+<p><strong>Skills Demonstrated:</strong></p>
+<ul>
+<li><strong>Data-Driven Adjustments:</strong> Leveraged HR analytics to refine talent acquisition, development, and retention tactics.</li>
+<li><strong>Program Optimization:</strong> Identified and addressed areas of underperformance in HR programs and processes.</li>
+</ul>
+
 
 
 </section>
 </section>
 
-</main> <!-- /main -->
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
