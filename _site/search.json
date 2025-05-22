@@ -19,5 +19,54 @@
     "title": "Hi, I’m Ryan Hernandez",
     "section": "Let’s Connect",
     "text": "Let’s Connect\nYou can email me or connect on LinkedIn.\n\nWelcome to my portfolio."
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "5: {r knit-resume, echo=FALSE, message=FALSE} 6:   Rmarkdown::render( 7:     \"resume.qmd\", 8:     output_file = \"Resume\", 9:     output_dir = \"Resume\", 10:    quiet = TRUE 11: ) 12:\n\nProfessional Summary\nResults-oriented marketing and analytics professional with a strong foundation in data analysis, digital strategy, and performance reporting. Skilled in leveraging analytics tools and programming languages to uncover insights and support decision-making across cross-functional teams.\n\n\nTechnical Skills\n\nHRIS & Analytics Platforms:\nTalent Management Systems:\nCommunication & Collaboration Tools:\nEmployee Engagement & Retention Strategies:\nTalent Development & Training:\n\n\n\nEducation\n\n\n\n\n\n\n\n\n\nBachelor of Science in Business Administration\n2018\nManagement and Human Resources\nCalifornia State Polytechnic University, Pomona\n\n\n\n\n\n\n\nWork Experience\n\n[HR Business Partner], [Amazon]\n[2020 – Present]\n\nPartnered with business leaders to develop and implement HR strategies aligned with organizational goals, focusing on employee engagement and retention.\nAnalyzed employee data to identify trends, provide insights, and recommend solutions to improve engagement and reduce turnover.\nCollaborated with management to support employee growth and development initiatives, including performance management and career pathing.\nUtilized HRIS systems to manage employee data, generate reports, and track key HR metrics.\nFacilitated communication and addressed employee relations issues to foster a positive and productive work environment."
+  },
+  {
+    "objectID": "strategic-management.html",
+    "href": "strategic-management.html",
+    "title": "Strategic Management",
+    "section": "",
+    "text": "Below are selected initiatives that showcase my experience in strategic human resources management, talent development, and organizational effectiveness. These examples highlight how I apply strategic thinking, data-informed decision-making, and creative direction to drive organizational success through effective people strategies."
+  },
+  {
+    "objectID": "strategic-management.html#talent-acquisition-employer-branding-strategy",
+    "href": "strategic-management.html#talent-acquisition-employer-branding-strategy",
+    "title": "Strategic Management",
+    "section": "[Talent Acquisition & Employer Branding Strategy]",
+    "text": "[Talent Acquisition & Employer Branding Strategy]\nIn this initiative, I led the development of a comprehensive talent acquisition strategy and employer branding campaign for [Salaried HR Partners]. From analyzing market trends and competitor practices to defining our employee value proposition and optimizing recruitment channels, I managed the full lifecycle of attracting top talent, aligning it with organizational culture and long-term growth objectives.\n\nSkills Demonstrated:\n\nTalent Strategy Development: Defined objectives and tactics for attracting and retaining high-potential employees.\nEmployer Branding: Oversaw the creation of consistent and compelling messaging across all candidate touchpoints.\nRecruitment Marketing: Implemented innovative strategies to enhance candidate engagement and application rates.\nStakeholder Collaboration: Partnered with hiring managers and leadership to ensure alignment with business needs."
+  },
+  {
+    "objectID": "strategic-management.html#leadership-development-program",
+    "href": "strategic-management.html#leadership-development-program",
+    "title": "Strategic Management",
+    "section": "[Leadership Development Program]",
+    "text": "[Leadership Development Program]\nThis initiative involved designing and implementing a comprehensive leadership development program for [Entry Level and Senior Level Managers]. By evaluating current leadership competencies, identifying future needs, and leveraging best practices in adult learning, I synthesized insights into a refreshed curriculum and delivery model that fostered leadership growth and organizational effectiveness.\n\nSkills Demonstrated:\n\nNeeds Assessment: Defined critical leadership competencies and development gaps.\nProgram Design & Development: Created engaging and impactful learning modules and resources.\nStrategic Communication: Developed clear and persuasive communication to engage participants and stakeholders.\nStakeholder Presentation: Delivered program proposals and progress updates to senior leadership."
+  },
+  {
+    "objectID": "strategic-management.html#organizational-restructuring-change-management",
+    "href": "strategic-management.html#organizational-restructuring-change-management",
+    "title": "Strategic Management",
+    "section": "[Organizational Restructuring & Change Management]",
+    "text": "[Organizational Restructuring & Change Management]\nThis initiative focused on strategically planning and executing an organizational restructuring to [improve efficiency, align with new strategy] at [Site Level]. By analyzing the existing structure, identifying areas for improvement, and developing a comprehensive change management plan, I guided the organization through a transition that minimized disruption and maximized employee buy-in.\n\nSkills Demonstrated:\n\nOrganizational Design: Analyzed organizational structures and proposed more effective models.\nChange Management: Developed and implemented strategies to facilitate smooth transitions and address employee concerns.\nCommunication Planning: Created and executed communication plans to keep employees informed and engaged.\nStakeholder Management: Collaborated with various departments and leaders to ensure alignment and support.\n\nSkills Demonstrated:\n\nData-Driven Adjustments: Leveraged HR analytics to refine talent acquisition, development, and retention tactics.\nProgram Optimization: Identified and addressed areas of underperformance in HR programs and processes."
+  },
+  {
+    "objectID": "HR-Management.html",
+    "href": "HR-Management.html",
+    "title": "HR Management",
+    "section": "",
+    "text": "Below are selected projects that highlight my experience applying data-driven insights to address key Human Resources challenges. These projects reflect my ability to leverage statistical tools, employee data, and strategic thinking to inform HR decisions and achieve impactful results in areas such as employee engagement, retention, and talent development."
+  },
+  {
+    "objectID": "HR-Management.html#what-youll-find",
+    "href": "HR-Management.html#what-youll-find",
+    "title": "HR Management",
+    "section": "What You’ll Find",
+    "text": "What You’ll Find\n\nEmployee Engagement Analysis: Evaluating factors that influence employee satisfaction, motivation, and commitment using data.\nRetention Metrics & Insights: Analyzing turnover rates and identifying key drivers to develop effective retention strategies.\nTalent Development & Growth Analysis: Examining the impact and effectiveness of training and development programs for employees and managers.\nWorkforce Planning & Trends: Utilizing data to understand workforce demographics, identify future needs, and optimize talent acquisition."
   }
 ]

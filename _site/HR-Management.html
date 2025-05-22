@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Hi, I’m Ryan Hernandez – Ryan Hernandez</title>
+<title>HR Management – Ryan Hernandez</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -66,7 +68,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -88,11 +148,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./HR-Management.html"> 
+    <a class="nav-link active" href="./HR-Management.html" aria-current="page"> 
 <span class="menu-text">HR Management</span></a>
   </li>  
   <li class="nav-item">
@@ -119,17 +179,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#about-me" id="toc-about-me" class="nav-link active" data-scroll-target="#about-me">About Me</a></li>
-  <li><a href="#lets-connect" id="toc-lets-connect" class="nav-link" data-scroll-target="#lets-connect">Let’s Connect</a></li>
+  <li><a href="#what-youll-find" id="toc-what-youll-find" class="nav-link active" data-scroll-target="#what-youll-find">What You’ll Find</a></li>
   </ul>
 </nav>
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Hi, I’m Ryan Hernandez</h1>
+<h1 class="title">HR Management</h1>
 </div>
 
 
@@ -146,32 +205,29 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="columns">
-<div class="column" style="width:30%;">
-<div class="quarto-figure quarto-figure-center" style="border-radius: 50%;">
-<figure class="figure">
-<p><img src="images/RyanHeadshot.jpeg" class="img-fluid figure-img" style="width:100.0%"></p>
-<figcaption>(images/RyanHeadshot.jpeg)</figcaption>
-</figure>
-</div>
-</div><div class="column" style="padding-left: 3rem;">
-<p>I’m a HR professional currently working as a HR Business Partner for Amazon Sort Centers. I specialize in employee engagement and retention as well as the growth and development of our management team.</p>
-</div>
-</div>
-<section id="about-me" class="level2">
-<h2 class="anchored" data-anchor-id="about-me">About Me</h2>
-<p>I hold a <span class="highlight">Bachelors of Science in Business Administration with a focus on Management and Human Resources as well as Masters Degree in Business Administration (in Progress)</span> from California State Polytechnic University, Pomona. I also hold a SHRM-CP certification from the Society for Human Resources Management.</p>
-</section>
-<section id="lets-connect" class="level2">
-<h2 class="anchored" data-anchor-id="lets-connect">Let’s Connect</h2>
-<p>You can <a href="mailto:ryanh1@cpp.edu">email me</a> or connect on <a href="https://www.linkedin.com/in/ryan-hernandez-shrm-cp-7b412462">LinkedIn</a>.</p>
+<p>Below are selected projects that highlight my experience applying data-driven insights to address key Human Resources challenges. These projects reflect my ability to leverage statistical tools, employee data, and strategic thinking to inform HR decisions and achieve impactful results in areas such as employee engagement, retention, and talent development.</p>
+<section id="what-youll-find" class="level2">
+<h2 class="anchored" data-anchor-id="what-youll-find">What You’ll Find</h2>
+<ul>
+<li><p><strong>Employee Engagement Analysis:</strong> Evaluating factors that influence employee satisfaction, motivation, and commitment using data.</p></li>
+<li><p><strong>Retention Metrics &amp; Insights:</strong> Analyzing turnover rates and identifying key drivers to develop effective retention strategies.</p></li>
+<li><p><strong>Talent Development &amp; Growth Analysis:</strong> Examining the impact and effectiveness of training and development programs for employees and managers.</p></li>
+<li><p><strong>Workforce Planning &amp; Trends:</strong> Utilizing data to understand workforce demographics, identify future needs, and optimize talent acquisition.</p></li>
+</ul>
 <hr>
-<p><em>Welcome to my portfolio.</em></p>
+
 
 
 </section>
 
-</main> <!-- /main -->
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

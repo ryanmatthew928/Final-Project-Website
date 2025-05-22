@@ -2,16 +2,14 @@
 title: "Resume"
 ---
 
-```{r knit-resume, echo=FALSE, message=FALSE}
-#| knit: knit-resume, echo=FALSE, message=FALSE
-rmarkdown::render(
-  "resume/Resume/resume.qmd",
-  output_format = "pdf_document",
-  output_file = "Resume",
-  output_dir = "Resume",
-  quiet = TRUE
-)
-```
+5:   ```{r knit-resume, echo=FALSE, message=FALSE}
+6:   Rmarkdown::render(
+7:     "resume.qmd",
+8:     output_file = "Resume",
+9:     output_dir = "Resume",
+10:    quiet = TRUE
+11: )
+12: ```
 
 # Professional Summary
 
@@ -28,7 +26,7 @@ Results-oriented marketing and analytics professional with a strong foundation i
 # Education
 
 | Bachelor of Science in Business Administration | 2018 | Management and Human Resources | California State Polytechnic University, Pomona |
-|-------------------|-----------------|--------------------|-----------------|
+|------------------|------------------|-------------------|------------------|
 
 # Work Experience
 

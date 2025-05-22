@@ -1,6 +1,6 @@
 project:
   type: website
-output-dir: docs
+output-dir: docs 
 website:
   title: "Ryan Hernandez"
   navbar:
@@ -12,7 +12,7 @@ website:
       - text: "Strategic Management"
         href: Strategic-Management.qmd
       - text: "Resume"
-        href: resume.qmd
+        href: Resume.qmd
 
 format:
   html:
