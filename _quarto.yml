@@ -8,11 +8,11 @@ website:
       - text: "Home"
         href: index.qmd
       - text: "HR Management"
-        href: HR-Management.qmd
+        href: HR-Management.html
       - text: "Strategic Management"
-        href: Strategic-Management.qmd
+        href: Strategic-Management.html
       - text: "Resume"
-        href: Resume.qmd
+        href: Resume.html
 
 format:
   html:
