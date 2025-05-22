@@ -10,13 +10,13 @@ website:
         # No 'file:' needed for index.qmd as it's typically 'index.html' by default
       - text: "HR Management"
         href: HR-Management.qmd
-        file: hr-management.html # Add this line
+        file: HR-Management.html # Add this line
       - text: "Strategic Management"
         href: Strategic-Management.qmd
-        file: strategic-management.html # Add this line
+        file: Strategic-Management.html # Add this line
       - text: "Resume"
         href: Resume.qmd
-        file: resume.html # Add this line
+        file: Resume.html # Add this line
 
 format:
   html:
