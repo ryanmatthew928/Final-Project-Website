@@ -1,0 +1,23 @@
+---
+title: "HR Management"
+listing: 
+  contents: listings
+  type: grid
+  categories: true
+  sort: 
+    - "index desc"
+---
+
+Below are selected projects that highlight my experience applying data-driven insights to address key Human Resources challenges. These projects reflect my ability to leverage statistical tools, employee data, and strategic thinking to inform HR decisions and achieve impactful results in areas such as employee engagement, retention, and talent development.
+
+## What You’ll Find
+
+-   **Employee Engagement Analysis:** Evaluating factors that influence employee satisfaction, motivation, and commitment using data.
+
+-   **Retention Metrics & Insights:** Analyzing turnover rates and identifying key drivers to develop effective retention strategies.
+
+-   **Talent Development & Growth Analysis:** Examining the impact and effectiveness of training and development programs for employees and managers.
+
+-   **Workforce Planning & Trends:** Utilizing data to understand workforce demographics, identify future needs, and optimize talent acquisition.
+
+------------------------------------------------------------------------

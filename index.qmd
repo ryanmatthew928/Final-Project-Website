@@ -1,0 +1,25 @@
+---
+title: "Hi, I'm Ryan Hernandez"
+---
+
+::::: columns
+::: {.column width="30%"}
+![(images/RyanHeadshot.jpeg)](images/RyanHeadshot.jpeg){width="100%" style="border-radius: 50%;"}
+:::
+
+::: {.column width="70%" style="padding-left: 3rem;"}
+I'm a HR professional currently working as a HR Business Partner for Amazon Sort Centers. I specialize in employee engagement and retention as well as the growth and development of our management team.
+:::
+:::::
+
+## About Me
+
+I hold a [Bachelors of Science in Business Administration with a focus on Management and Human Resources as well as Masters Degree in Business Administration (in Progress) ]{.highlight} from California State Polytechnic University, Pomona. I also hold a SHRM-CP certification from the Society for Human Resources Management. 
+
+## Let's Connect
+
+You can [email me](mailto:ryanh1@cpp.edu) or connect on [LinkedIn](https://www.linkedin.com/in/ryan-hernandez-shrm-cp-7b412462).
+
+------------------------------------------------------------------------
+
+*Welcome to my portfolio.*
