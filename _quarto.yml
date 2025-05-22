@@ -1,21 +1,24 @@
 project:
   type: website
-output-dir: docs 
+  output-dir: docs
 website:
   title: "Ryan Hernandez"
   navbar:
     left:
       - text: "Home"
         href: index.qmd
+        # No 'file:' needed for index.qmd as it's typically 'index.html' by default
       - text: "HR Management"
-        href: HR-Management.html
+        href: HR-Management.qmd
+        file: hr-management.html # Add this line
       - text: "Strategic Management"
-        href: Strategic-Management.html
+        href: Strategic-Management.qmd
+        file: strategic-management.html # Add this line
       - text: "Resume"
-        href: Resume.html
+        href: Resume.qmd
+        file: resume.html # Add this line
 
 format:
   html:
     theme: [flatly, theme.scss]
     toc: true
-
